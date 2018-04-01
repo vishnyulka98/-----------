@@ -1,0 +1,52 @@
+ body
+{
+	background: #333;
+}
+
+#gameName
+{
+	color: #fff;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 24px;
+	text-align:center;
+}
+
+#knopka input{
+background-image: url("img/fon.png");
+width: 800px;//168px;
+height: 500px;//100px;
+font-family: Arial;
+//position: absolute;
+//left: 600px;
+//top: 250px;
+font-size: 50px;//20px;
+color:red;
+//margin: 0px 29px 0px 0px;
+margin:70px 250px 0px;
+//border: 1px solid #216ec6;
+//border-radius: 5px;
+}
+
+
+
+canvas
+{
+	
+	display: block;
+	//background: #fff;
+	margin:70px 250px 0px;
+	//margin:0px 0px 0px;
+}
+
+#player, #ok, #enemy, #enemy2, #stats, #player2, #player3, #water, #diplom, #foto
+{
+	display: block;
+	margin:-500px auto 0px;
+}
+
+#map2
+{
+	display: block;
+	margin:-500px auto 0px;
+}
